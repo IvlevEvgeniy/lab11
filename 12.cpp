@@ -108,6 +108,11 @@ int main()
     cout << "c1 - c2 = " << c1 - c2;
     cout << "c1 * c2 = " << c1 * c2;
     cout << "c1 / c2 = " << c1 / c2;
+    
+    cout << "c1 + 1 = " << c1 + 1;
+    cout << "c1 - 1 = " << c1 - 1;
+    cout << "c1 * 1 = " << c1 * 1;
+    cout << "c1 / 1 = " << c1 / 1;
 
     ComplexExp *exp1 = new ComplexExp();
     exp1->expCount(c1);
